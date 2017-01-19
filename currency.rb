@@ -69,3 +69,5 @@ c * 2
 puts "Multiplying Object C by 2 = #{c.amount} #{c.code}"
 d = Currency.new(amount: "$34.00")
 puts "Object D: #{d.amount} #{d.code}"
+a.amount = 32
+puts "Object A: #{a.amount} #{a.code}"
